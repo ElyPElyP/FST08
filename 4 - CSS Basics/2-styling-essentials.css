@@ -74,4 +74,30 @@
     /* Pass: 0 - 255 */
     color: rgb(0, 255, 0);
     background-color: rgb(255, 0, 0);
+
+    /* Hexadecimal */
+    /* #RRGGBB */
+    /* Pass: 0 - 9, A - F */
+    color: #faf0ca;
+    background-color: #0d3b66;
+}
+
+/* Units of Measurements */
+#absolute-unit-px {
+    /* Default: 16px */
+    /* 24 pixels - absolute unit of measurement */
+    /* absolute: means it will not change. */
+    font-size: 24px;
+}
+
+#relative-unit-em {
+    /* em: current font-size of the parent element */
+    /* relative to the font-size of the parent element. */
+    font-size: 3em;
+}
+
+
+#relative-unit-rem {
+    /* relative to the font-size of the root element */
+    font-size: 4rem; /* 64px */
 }
